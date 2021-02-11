@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: .81rem;
+  font-weight: bolder;
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+  margin: 10px;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: #fff;
+  background-image: conic-gradient(rgb(255, 197, 197) 50deg, rgb(1, 97, 5) 100deg, rgb(179, 250, 179) 200deg, rgb(0, 65, 65), rgb(187, 187, 255), rgb(97, 0, 97), rgb(248, 196, 196));
+}
+
+.empty {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  border: solid 3px black;
+  background-image: conic-gradient(rgb(255, 197, 197) 50deg, rgb(1, 97, 5) 100deg, rgb(179, 250, 179) 200deg, rgb(0, 65, 65), rgb(187, 187, 255), rgb(97, 0, 97), rgb(248, 196, 196));
+}
+
+.fill {
+  background-image: url('https://source.unsplash.com/collection/139386/200x200/?sig=');
+  background-position: cover;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: rgb(162, 163, 163) 0px 1px 2px 0px, rgba(158, 163, 167, 0.52) 1px 2px 3px 4px;
+}
+
+.hold {
+  border: solid 5px #ccc;
+  border-radius: 5px;
+  box-shadow: rgb(227, 230, 230) 0px 1px 2px 0px, rgb(158, 160, 161) 0px 2px 6px 2px;
+}
+
+.hovered {
+  background-image: radial-gradient(circle at top right, #001883, rgb(82, 0, 0), #701637);
+  border-color: rgba(255, 255, 255, 0.39);
+  border-style: dashed;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
