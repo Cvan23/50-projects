@@ -28,14 +28,14 @@ body {
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-bottom-color: #fff;
-  animation: rotateA 2s linear infinite 0.5s;
+  border-bottom-color: rgb(192, 31, 31);
+  animation: rotateA 3s linear infinite 0.75s;
   
 }
 
 .kinetic::before {
   transform: rotate(90deg);
-  animation: rotateB 2s linear infinite;
+  animation: rotateB 3s linear infinite;
 }
 
 @keyframes rotateA {

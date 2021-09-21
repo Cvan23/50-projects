@@ -80,7 +80,7 @@ body {
   border-bottom-color: lightblue;
 }
 
-.form-control input {
+/* .form-control input {
   background-color: transparent;
   border: 0;
   border-bottom: 2px #fff solid;
@@ -95,7 +95,7 @@ body {
 .form-control input:valid {
   outline: 0;
   border-bottom-color: lightblue;
-}
+} */
 
 .form-control label {
   position: absolute;
