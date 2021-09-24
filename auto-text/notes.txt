@@ -1,0 +1,7 @@
+Add button to trigger random phrase from an array
+or
+Add input field to generate text from user
+
+Add slider for speed control
+
+Add animation for text
