@@ -9,5 +9,5 @@ and/or functionality in most cases.
 The original projects can be found within the course over at Udemy:
 [50 Projects In 50 Days - HTML, CSS & Javascript](https://www.udemy.com/course/50-projects-50-days/)
 
-## H2 Examples of some of my projects can be found on my CodePen site:
+## Examples of some of my projects can be found on my CodePen site:
 https://codepen.io/cvancat
